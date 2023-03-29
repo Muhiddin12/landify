@@ -85,6 +85,7 @@ h6 {
   flex-direction: column;
   min-height: 100vh;
   margin: 0 auto;
+  max-width: 1300px;
 }
 .container {
   max-width: 1143px;
