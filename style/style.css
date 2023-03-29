@@ -84,6 +84,7 @@ h6 {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  margin: 0 auto;
 }
 .container {
   max-width: 1143px;
@@ -121,6 +122,7 @@ h6 {
 }
 
 .header__logo {
+  cursor: pointer;
 }
 
 .header__menu {
@@ -130,9 +132,11 @@ h6 {
 
 .header__items1 {
   width: 40%;
+  cursor: pointer;
 }
 
 .header__items2 {
+  cursor: pointer;
   width: 60%;
   display: flex;
   gap: 27px;
@@ -188,6 +192,7 @@ h6 {
 }
 
 .home-btn {
+  cursor: pointer;
   width: 35%;
   height: 47px;
   padding: 10px;
@@ -207,6 +212,7 @@ h6 {
   align-items: center;
   background-color: #000;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .home .demo {
@@ -378,6 +384,7 @@ h6 {
   flex: 0 1 18%;
 }
 .footer__logo {
+  cursor: pointer;
 }
 
 .footer__menu {
@@ -392,6 +399,7 @@ h6 {
 }
 
 .footer__items {
+  margin-top: 20px;
 }
 .footer__item:not(:last-child) {
   margin-bottom: 18px;
@@ -581,6 +589,7 @@ input.footer__input {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 .right-section .polygon {
@@ -671,6 +680,7 @@ input.footer__input {
   background: white;
   border-radius: 11px;
   text-align: center;
+  cursor: pointer;
 }
 
 #bir {
@@ -706,6 +716,7 @@ input.footer__input {
   width: 48%;
 }
 
+
 .right-questions {
   width: 48%;
 }
@@ -719,11 +730,23 @@ input.footer__input {
   justify-content: space-between;
 }
 
+.will:hover {
+  cursor: pointer;
+  height: 100px;
+}
+
 .does {
   padding: 20px;
   border-radius: 12px;
   border: 1px solid black;
+  overflow-y: hidden;
 }
+
+.does:hover {
+  cursor: pointer;
+  height: 60px;
+}
+
 
 .does-in {
   display: flex;
@@ -772,6 +795,11 @@ input.footer__input {
   font-weight: bold;
 }
 
+.can:hover {
+  cursor: pointer;
+  height: 100px;
+}
+
 .can h4 {
   font-size: 14px;
   font-weight: bold;
@@ -784,6 +812,13 @@ input.footer__input {
   border: 1px solid black;
   display: flex;
   justify-content: space-between;
+  transition: 3s;
+}
+
+.do:hover {
+  cursor: pointer;
+  height: 100px;
+  transition: 2s;
 }
 
 .do p {
@@ -808,11 +843,9 @@ input.footer__input {
   transition: 3s;
 }
 
-.who:active {
-  background: #b6a7a7;
+.who:hover {
   height: 120px;
   transition: 2s;
-
 }
 
 .who p {
